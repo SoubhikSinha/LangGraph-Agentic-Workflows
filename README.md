@@ -1,12 +1,3 @@
 # Agentic Graph Workflows @ `LangGraph` + `Tool-Augmented Chatbots`
 
 Here, the repo demonstrates the construction of **graph-based agentic workflows** using **LangGraph** on top of LangChain, showcasing how LLM-driven systems can move beyond linear chains into stateful, multi-step execution graphs. The `1-intro.ipynb` notebook introduces core LangGraph concepts such as nodes, edges, and state propagation, establishing how agent workflows can be modeled as directed graphs. The `simplegraphs.ipynb` notebook builds on this by implementing structured execution flows, enabling conditional routing, iterative loops, and dynamic transitions between steps. The `chatBotMultiTools.ipynb` notebook extends these ideas into a practical **tool-augmented chatbot**, integrating external knowledge sources like `arxiv` and `wikipedia`, allowing the agent to dynamically select tools and enrich responses with real-time information. The system leverages `langchain`, `langchain-core`, `langchain-community`, and `langchain-groq` for LLM orchestration, while `pydantic` ensures structured state management. Overall, the project highlights graph-based orchestration, tool calling, modular workflow design, and scalable agent pipelines for building advanced conversational AI systems.
-<br>
-<br>
-
-## References
-[Krish Naik](https://github.com/krishnaik06)<br>
-[LangGraph](https://github.com/langchain-ai/langgraph)<br>
-[LangChain](https://github.com/langchain-ai/langchain)<br>
-[Arxiv Tool](https://python.langchain.com/docs/integrations/tools/arxiv/)<br>
-[Wikipedia Tool](https://python.langchain.com/docs/integrations/tools/wikipedia/)
